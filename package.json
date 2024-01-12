@@ -1,0 +1,23 @@
+{
+  "name": "movie-ticketing-app",
+  "version": "1.0.0",
+  "description": "The Movie Ticketing API",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahodar Majgaonkar",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^13.3.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "serverless-http": "^3.2.0"
+  }
+}
